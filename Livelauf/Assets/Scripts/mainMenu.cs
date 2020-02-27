@@ -15,7 +15,7 @@ public class mainMenu : MonoBehaviour
 
     public void VerlasseSimulation()
     {
-        Debug.Log("Simulation wird verlassen.")
+        Debug.Log("Simulation wird verlassen.");
         Application.Quit();
 
     }
