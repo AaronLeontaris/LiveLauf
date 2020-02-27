@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-public class AudioManager3 : MonoBehaviour
+public class TonManager : MonoBehaviour
 {
 
     public Sound[] sounds;
@@ -17,6 +17,8 @@ public class AudioManager3 : MonoBehaviour
 
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+
+            s.source.loop = s.loop;
         }
     }
 
@@ -31,7 +33,22 @@ public class AudioManager3 : MonoBehaviour
     {
 
         Sound s = Array.Find(sounds, sound => sound.name == name);
+
+        if (s == null)
+        {
+
+            return;
+
+        }
+
         s.source.Play();
+    }
+
+    public void ClickSound()
+    {
+
+        Play("Click");
+
     }
 
 }

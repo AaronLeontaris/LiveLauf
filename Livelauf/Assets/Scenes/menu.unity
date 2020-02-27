@@ -358,12 +358,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 839662805}
-        m_MethodName: 
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1560,19 +1560,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 839662805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b44be0d710576d74da29361119b810c1, type: 3}
+  m_Script: {fileID: 11500000, guid: d2be21a4cf998b3458ab4e96a28656aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: TeleportSound
-    clip: {fileID: 8300000, guid: 1bd094f145db4d44780be5b392c90b01, type: 3}
-    volume: 0
-    pitch: 0.1
+  - name: Theme
+    clip: {fileID: 8300000, guid: 36acb2001aa57764f8f55648c943ce26, type: 3}
+    volume: 0.772
+    pitch: 0.9
+    loop: 1
     source: {fileID: 0}
-  - name: MenuClick
-    clip: {fileID: 8300000, guid: 558edf3691fce2c4184c88bfe161e44d, type: 3}
-    volume: 0
-    pitch: 0.1
+  - name: Click
+    clip: {fileID: 8300000, guid: 1ac8490f4f85b954b866628ba4dcd671, type: 3}
+    volume: 0.848
+    pitch: 0.9
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &839662807
 Transform:
@@ -2385,6 +2387,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1580841339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,6 +2526,17 @@ MonoBehaviour:
       - m_Target: {fileID: 385439797}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2883,6 +2907,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1741402599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2999,6 +3034,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2016928674}
         m_MethodName: VerlasseSimulation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3383,6 +3429,17 @@ MonoBehaviour:
       - m_Target: {fileID: 385439797}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 839662806}
+        m_MethodName: ClickSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
