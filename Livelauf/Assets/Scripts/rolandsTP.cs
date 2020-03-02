@@ -5,7 +5,7 @@ using UnityEngine;
 public class rolandsTP : MonoBehaviour
 {
     public Transform teleportTarget;
-    public CharacterController thePLayer;
+    public GameObject thePLayer;
 
     private void OnTriggerEnter(Collider other)
     {
